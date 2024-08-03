@@ -11,7 +11,7 @@ import SwiftUI
 struct JankenAppApp: App {
     var body: some Scene {
         WindowGroup {
-            JankenView()
+            HomePageView()
         }
     }
 }
