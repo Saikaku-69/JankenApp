@@ -10,13 +10,8 @@
 		7F0C7CDE2C3799E20024EEBB /* JankenAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C7CDD2C3799E20024EEBB /* JankenAppApp.swift */; };
 		7F0C7CE22C3799E50024EEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F0C7CE12C3799E50024EEBB /* Assets.xcassets */; };
 		7F0C7CE52C3799E50024EEBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F0C7CE42C3799E50024EEBB /* Preview Assets.xcassets */; };
-		7F0C7CF22C37B2020024EEBB /* NormalModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C7CF12C37B2020024EEBB /* NormalModeView.swift */; };
-		7F0C7CF82C37CB650024EEBB /* ImpossibleModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C7CF72C37CB650024EEBB /* ImpossibleModeView.swift */; };
-		7F0C7CFA2C37CEE80024EEBB /* EasyModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C7CF92C37CEE80024EEBB /* EasyModeView.swift */; };
-		7F0C7CFE2C37DFF80024EEBB /* JankenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C7CFD2C37DFF80024EEBB /* JankenView.swift */; };
-		7F4321492C4182C20090AA9A /* HardModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4321482C4182C20090AA9A /* HardModeView.swift */; };
+		7F0C7CF22C37B2020024EEBB /* JankenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C7CF12C37B2020024EEBB /* JankenView.swift */; };
 		7F61CF432C5EA0740068B377 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F61CF422C5EA0740068B377 /* HomePageView.swift */; };
-		7FFADDAB2C47980C00BF3084 /* alertTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFADDAA2C47980C00BF3084 /* alertTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,13 +19,8 @@
 		7F0C7CDD2C3799E20024EEBB /* JankenAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JankenAppApp.swift; sourceTree = "<group>"; };
 		7F0C7CE12C3799E50024EEBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F0C7CE42C3799E50024EEBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7F0C7CF12C37B2020024EEBB /* NormalModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalModeView.swift; sourceTree = "<group>"; };
-		7F0C7CF72C37CB650024EEBB /* ImpossibleModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpossibleModeView.swift; sourceTree = "<group>"; };
-		7F0C7CF92C37CEE80024EEBB /* EasyModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyModeView.swift; sourceTree = "<group>"; };
-		7F0C7CFD2C37DFF80024EEBB /* JankenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JankenView.swift; sourceTree = "<group>"; };
-		7F4321482C4182C20090AA9A /* HardModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardModeView.swift; sourceTree = "<group>"; };
+		7F0C7CF12C37B2020024EEBB /* JankenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JankenView.swift; sourceTree = "<group>"; };
 		7F61CF422C5EA0740068B377 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
-		7FFADDAA2C47980C00BF3084 /* alertTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alertTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +37,6 @@
 		7F0C7CD12C3799E20024EEBB = {
 			isa = PBXGroup;
 			children = (
-				7FFADD6F2C45F56100BF3084 /* Mode2_Soccer */,
 				7F0C7CDC2C3799E20024EEBB /* JankenApp */,
 				7F0C7CDB2C3799E20024EEBB /* Products */,
 			);
@@ -66,11 +55,7 @@
 			children = (
 				7F61CF412C5EA05C0068B377 /* HomePageView */,
 				7F0C7CDD2C3799E20024EEBB /* JankenAppApp.swift */,
-				7F0C7CFD2C37DFF80024EEBB /* JankenView.swift */,
-				7F0C7CF12C37B2020024EEBB /* NormalModeView.swift */,
-				7F0C7CF92C37CEE80024EEBB /* EasyModeView.swift */,
-				7F0C7CF72C37CB650024EEBB /* ImpossibleModeView.swift */,
-				7F4321482C4182C20090AA9A /* HardModeView.swift */,
+				7F0C7CF12C37B2020024EEBB /* JankenView.swift */,
 				7F0C7CE12C3799E50024EEBB /* Assets.xcassets */,
 				7F0C7CE32C3799E50024EEBB /* Preview Content */,
 			);
@@ -91,14 +76,6 @@
 				7F61CF422C5EA0740068B377 /* HomePageView.swift */,
 			);
 			path = HomePageView;
-			sourceTree = "<group>";
-		};
-		7FFADD6F2C45F56100BF3084 /* Mode2_Soccer */ = {
-			isa = PBXGroup;
-			children = (
-				7FFADDAA2C47980C00BF3084 /* alertTestView.swift */,
-			);
-			path = Mode2_Soccer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,14 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F4321492C4182C20090AA9A /* HardModeView.swift in Sources */,
-				7F0C7CF22C37B2020024EEBB /* NormalModeView.swift in Sources */,
-				7F0C7CFE2C37DFF80024EEBB /* JankenView.swift in Sources */,
+				7F0C7CF22C37B2020024EEBB /* JankenView.swift in Sources */,
 				7F0C7CDE2C3799E20024EEBB /* JankenAppApp.swift in Sources */,
-				7FFADDAB2C47980C00BF3084 /* alertTestView.swift in Sources */,
-				7F0C7CF82C37CB650024EEBB /* ImpossibleModeView.swift in Sources */,
 				7F61CF432C5EA0740068B377 /* HomePageView.swift in Sources */,
-				7F0C7CFA2C37CEE80024EEBB /* EasyModeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
