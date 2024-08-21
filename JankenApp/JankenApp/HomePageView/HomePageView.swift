@@ -12,6 +12,7 @@ struct HomePageView: View {
     @State var Vposi:CGFloat = -0
     @State var Sposi:CGFloat = 0
     @State var isChange: Bool = true
+    @State var isSleep: Bool = true
     
     var body: some View {
         HStack {
@@ -42,39 +43,37 @@ struct HomePageView: View {
         HStack {
             
             ZStack {
-                Image("zzz")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 50)
-                    .position(x: 80, y: 20)
-                if isChange {
-                    Image("pikasleep")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 70)
-                        .position(x: 50, y: 40)
-                } else {
-                    Image("pikawalk")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 70)
-                        .position(x: 50, y: 40)
+                Button(action: {
+                    isChange.toggle()
+                    isAnitor()
+                    isSleep = false
+                }) {
+                    if isChange {
+                        if isSleep {
+                            ZStack {
+                                Image("zzz")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 50)
+                                    .position(x: 80, y: 20)
+                                Image("pikasleep")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 70)
+                                    .position(x: 50, y: 40)
+                            }
+                        }
+                    } else {
+                        Image("pikawalk")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 70)
+                            .position(x: 50, y: 40)
+                    }
                 }
-            }
-            .onTapGesture {
-                isChange.toggle()
             }
         }
         .frame(height:100)
-        //        Slider(value: $value, in: 0...100)
-        //            .frame(width:300)
-        //            .onChange(of: value) {
-        //                if value >= 80 {
-        //                    withAnimation(.linear(duration:0.3)) {
-        //                        isAnitor()
-        //                    }
-        //                }
-        //            }
     }
     private func isAnitor() {
         Vposi += 20
